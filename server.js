@@ -11,7 +11,12 @@ app.get('/', (req, res) => {
     `);
   });
 
+app.get('/:number_of_bottles', (req, res) => {
+    const bottles = Number(req.params.number_of_bottles);
+    const nextBottles = bottles - 1;
 
+    
+})
 
 
 
